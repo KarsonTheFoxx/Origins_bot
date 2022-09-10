@@ -23,7 +23,7 @@ class view_origin_cog(commands.Cog):
         self.bot = bot
     
     # Command call
-    @commands.slash_command(name="origin_beta")
+    @commands.slash_command(name="origins")
     @commands.cooldown(rate=5, per=10, type=commands.BucketType.user)
     async def origin(self, inter, origin:str=commands.Param(autocomplete=autocomplete)):
         await inter.response.defer()
