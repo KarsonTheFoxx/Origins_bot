@@ -1,0 +1,682 @@
+{
+  "data": {
+    "maker": "lammas123",
+    "description": "All of the origin packs that were created by lammas123.",
+    "compatibility": "Stand-alone",
+    "download": "https://discord.gg/Mypr3MqpcP",
+    "support": "https://discord.gg/Mypr3MqpcP"
+  },
+  "packs": {
+    "base": {
+      "order": [
+        "human",
+        "avian",
+        "arachnid",
+        "elytrian",
+        "shulk",
+        "feline",
+        "enderian",
+        "merling",
+        "blazeborn",
+        "phantom"
+      ],
+      "description": "The Main origins pack.",
+      "placement notes": "Must be applied above all origin packs.",
+      "order placement": 0,
+      "origins": {
+        "human": {
+          "display-name": "Human",
+          "description": "A regular human. Your ordinary Minecraft experience awaits.",
+          "impact": "none",
+          "icon_path": "./data/core/origin_icons/human.png",
+          "color": {
+            "r": 187,
+            "g": 129,
+            "b": 42
+          },
+          "powers": {},
+          "neutrals": {},
+          "downsides": {},
+          "cosmetics": {}
+        },
+        "avian": {
+          "display-name": "Avian",
+          "description": "The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.",
+          "impact": "low",
+          "icon_path": "./data/core/origin_icons/avian.png",
+          "color": {
+            "r": 129,
+            "g": 134,
+            "b": 137
+          },
+          "powers": {
+            "Featherweight": "You fall as gently to the ground as a feather would, unless you sneak.",
+            "Tailwind": "You are a little bit quicker on foot than others.",
+            "Oviparous": "Whenever you wake up in the morning, you will lay an egg."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Fresh Air": "When sleeping, your bed needs to be at an altitude of at least 86 blocks, so you can breathe fresh air.",
+            "Vegetarian": "You can't digest any meat."
+          },
+          "cosmetics": {}
+        },
+        "arachnid": {
+          "display-name": "Arachnid",
+          "description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
+          "impact": "low",
+          "icon_path": "./data/core/origin_icons/arachnid.png",
+          "color": {
+            "r": 126,
+            "g": 144,
+            "b": 145
+          },
+          "powers": {
+            "Climbing": "You are able to climb up any kind of wall, not just ladders, by jumping continuously on touch screen, or holding jump otherwise to ascend, touching a wall to descend, and sneaking to cling to the wall. This is toggleable by jumping while sneaking.",
+            "Webbing": "When you hit an enemy with your Primary Power item, they get stuck in cobweb and you have to wait a short cooldown before using it again.",
+            "Spider Sense": "You can see clearer in dark places when not submerged in water."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Carnivore": "Your diet is restricted to meat, you can't eat vegetables.",
+            "Fragile": "You have 3 less hearts of health than humans."
+          },
+          "cosmetics": {}
+        },
+        "elytrian": {
+          "display-name": "Elytrian",
+          "description": "Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.",
+          "impact": "low",
+          "icon_path": "./data/core/origin_icons/elytrian.png",
+          "color": {
+            "r": 76,
+            "g": 104,
+            "b": 118
+          },
+          "powers": {
+            "Winged": "You have Elytra wings without needing to equip any.",
+            "Gift of the Winds": "Every 30 seconds, you are able to launch about 20 blocks up into the air by using your Primary Power item.",
+            "Aerial Combatant": "You deal substantially more damage while in Elytra flight."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Need for Mobility": "You can not wear any heavy armor (armor with protection values higher than iron).",
+            "Claustrophobia": "Being somewhere with a low ceiling for too long will weaken you and make you slower.",
+            "Brittle Bones": "You take more damage from falling and flying into blocks."
+          },
+          "cosmetics": {}
+        },
+        "shulk": {
+          "display-name": "Shulk",
+          "description": "Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.",
+          "impact": "low",
+          "icon_path": "./data/core/origin_icons/shulk.png",
+          "color": {
+            "r": 173,
+            "g": 126,
+            "b": 194
+          },
+          "powers": {
+            "Hoarder": "You have access to an additional 9 slots of inventory, which keep the items on death. This inventory can be accessed by looking straight down and interacting with the ground right below you, as if you were opening a chest minecart, while sneaking. This inventory can only be accessed in the overworld do to issues occurring when opening in other dimensions.",
+            "Sturdy Skin": "Even without wearing armor, your skin provides natural protection.",
+            "Strong Arms": "You are strong enough to break natural stones without using a pickaxe and can break all blocks slightly faster."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Unwieldy": "The way your hands are formed provide no way of holding a shield upright.",
+            "Large Appetite": "You exhaust much quicker than others, thus requiring you to eat more."
+          },
+          "cosmetics": {}
+        },
+        "feline": {
+          "display-name": "Feline",
+          "description": "With their cat-like appearance, the Feline scares creepers away. With the dexterity of cats, they always land safely on their feet.",
+          "impact": "medium",
+          "icon_path": "./data/core/origin_icons/feline.png",
+          "color": {
+            "r": 214,
+            "g": 104,
+            "b": 14
+          },
+          "powers": {
+            "Acrobatics": "You never take fall damage, no matter from which height you fall.",
+            "Strong Ankles": "You are able to jump higher by jumping while sprinting.",
+            "Velvet Paws": "Your footsteps don't cause any vibrations which could otherwise be picked up by nearby lifeforms.",
+            "Catlike Appearance": "Creepers and phantoms are scared of you, and creepers will only explode if you attack them first.",
+            "Nocturnal": "You can see clearer in the dark when not submerged in water."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Nine Lives": "You have 1 less heart of health than humans.",
+            "Weak Arms": "You are unable to mine natural stones if there are more than two natural stones adjacent to it unless you have the strength effect."
+          },
+          "cosmetics": {}
+        },
+        "enderian": {
+          "display-name": "Enderian",
+          "description": "Born as sons and daughters of the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water.",
+          "impact": "medium",
+          "icon_path": "./data/core/origin_icons/enderian.png",
+          "color": {
+            "r": 118,
+            "g": 69,
+            "b": 141
+          },
+          "powers": {
+            "Teleportation": "Whenever you want, you may throw an ender pearl which deals no damage by using your Primary Power item, allowing you to teleport.",
+            "Tough Skin": "You have 2 more hearts of health than humans."
+          },
+          "neutrals": {
+            "Slender Body": "You are half a block taller than others due to your slender body, and a little bit quicker on foot than others due to your long legs, but you can fit in 2 block tall spaces by sneaking."
+          },
+          "downsides": {
+            "Hydrophobia": "You receive damage over time while in contact with water."
+          },
+          "cosmetics": {}
+        },
+        "merling": {
+          "display-name": "Merling",
+          "description": "These natural inhabitants of the ocean are not used to being out of the water for too long.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/merling.png",
+          "color": {
+            "r": 111,
+            "g": 169,
+            "b": 222
+          },
+          "powers": {
+            "Wet Eyes": "Your vision underwater is perfect.",
+            "Aqua Affinity": "You may break blocks underwater as others do on land.",
+            "Fins": "Your underwater speed is increased."
+          },
+          "neutrals": {
+            "Gills": "You can breathe underwater, but not on land."
+          },
+          "downsides": {},
+          "cosmetics": {}
+        },
+        "blazeborn": {
+          "display-name": "Blazeborn",
+          "description": "Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/blazeborn.png",
+          "color": {
+            "r": 222,
+            "g": 86,
+            "b": 77
+          },
+          "powers": {
+            "Fire Immunity": "You are immune to all types of fire damage.",
+            "Burning Wrath": "When on fire, you deal additional damage with your attacks.",
+            "Hotblooded": "Due to your hot body, venoms burn up, making you immune to poison and hunger status effects."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Nether Inhabitant": "Your natural spawn will be in the Nether.",
+            "Hydrophobia": "You receive damage over time while in contact with water."
+          },
+          "cosmetics": {}
+        },
+        "phantom": {
+          "display-name": "Phantom",
+          "description": "As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/phantom.png",
+          "color": {
+            "r": 247,
+            "g": 233,
+            "b": 179
+          },
+          "powers": {
+            "Phantom Form": "You can switch between human and phantom form at will by using your Primary Power item. Sneak to get the Primary Power item back after using it.",
+            "Phasing": "While phantomized, you can phase through solid material, except Obsidian, by punching with your Primary Power item, and you can sneak while in a wall to see through walls. Fancy Graphics must be turned on to see through walls.",
+            "Invisibility": "While phantomized, you are invisible."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Photoallergic": "You begin to burn in daylight if you are not invisible.",
+            "Fast Metabolism": "Being phantomized causes you to become hungry.",
+            "Fragile": "You have 3 less hearts of health than humans."
+          },
+          "cosmetics": {}
+        }
+      }
+    },
+    "extra": {
+      "order": [
+        "fox",
+        "rabbit",
+        "slime",
+        "bee",
+        "starborne",
+        "tmotd",
+        "witherin",
+        "wolfwalkt",
+        "wolfwalkf"
+      ],
+      "description": "The Extra origins pack.",
+      "placement notes": "Must be applied below the Main origins pack.",
+      "order placement": 1,
+      "origins": {
+        "fox": {
+          "display-name": "Fox",
+          "description": "This Fox dwells around settlements waiting for treasure to be left unguarded. Though weak in terms of vitality they hide extremely well and can escape most life threatening situations with ease.",
+          "impact": "low",
+          "icon_path": "./data/core/origin_icons/fox.png",
+          "color": {
+            "r": 221,
+            "g": 105,
+            "b": 11
+          },
+          "powers": {
+            "Camouflage": "You are able to go invisible after 4 seconds of standing still but you need to crouch.",
+            "Pounce": "You have a high jump that can be activated by using or punching with your Primary Power item. This can increase your damage dealt if you land a hit before landing. This ability has a 3 second cooldown and consumes a hunger bar.",
+            "Mighty Mouth": "You have access to an additional 9 slots of inventory, which keep the items on death. This inventory can be accessed by looking straight down and interacting with the ground right below you, as if you were opening a chest minecart, while sneaking. This inventory can only be accessed in the overworld do to issues occurring when opening in other dimensions.",
+            "Nocturnal": "You can see clearer in the dark when not submerged in water.",
+            "Acrobatics": "You never take fall damage, no matter from which height you fall.",
+            "Berry Craver": "You love berries and therefore they cure 3 hunger bars instead of 1.",
+            "Fast Footed": "Due to your shorter legs and low exhaustion, your movement speed is increased and your size is decreased."
+          },
+          "neutrals": {
+            "Foxlike Looks": "You look like a fox, chickens are afraid of you and wolves attack you on sight, but foxes won't run from you."
+          },
+          "downsides": {
+            "Smaller Heart": "Due to your overall smaller size, your heart is smaller, resulting in your maximum health being lowered by 4 hearts.",
+            "Hungry Boi": "Due to your small size and your body working harder, you are more hungry.",
+            "Unwieldy": "The way your hands are formed provide no way of holding a shield upright."
+          },
+          "cosmetics": {
+            "Credit": "SpotCasper#6229"
+          }
+        },
+        "rabbit": {
+          "display-name": "Rabbit",
+          "description": "A fast and hard working rabbit.",
+          "impact": "low",
+          "icon_path": "./data/core/origin_icons/rabbit.png",
+          "color": {
+            "r": 218,
+            "g": 197,
+            "b": 114
+          },
+          "powers": {
+            "Rabbit Legs": "You jump higher and move faster than humans.",
+            "Hole Digger": "You mine faster than humans in places with low ceilings.",
+            "Green Thumb": "During the day you get one bonemeal each minute."
+          },
+          "neutrals": {
+            "Rabbit Sized": "You are a block shorter than humans."
+          },
+          "downsides": {
+            "Weak Body": "You have 5 less hearts of health than humans.",
+            "Vegetarian": "You can't digest any meat."
+          },
+          "cosmetics": {
+            "Credit": "SpotCasper#6229"
+          }
+        },
+        "slime": {
+          "display-name": "Slime",
+          "description": "A slime that has evolved into the shape of a human, very unpleasant to touch.",
+          "impact": "medium",
+          "icon_path": "./data/core/origin_icons/slime.png",
+          "color": {
+            "r": 29,
+            "g": 220,
+            "b": 93
+          },
+          "powers": {
+            "Elastic Body": "You have an improved jump height at full size and take no fall damage, you can also perform a high jump by using your Primary Power item.",
+            "Split-Up": "You shrink to half your size (and max health) instead of dying when at full size.",
+            "Shock Absorption": "You take reduced damage in general and even more reduced damage from projectiles, unless you are wearing iron armor or better."
+          },
+          "neutrals": {
+            "Slimy Residue": "You drop a slime ball upon death."
+          },
+          "downsides": {
+            "Liquid Body": "The water that makes you slimy evaporates if it's too hot and freezes if it's too cold, making you slower, and you fall apart in water.",
+            "Sticky Feet": "You are unable to sprint very fast for very long."
+          },
+          "cosmetics": {
+            "Credit": "Phil the great#6671"
+          }
+        },
+        "bee": {
+          "display-name": "Bee",
+          "description": "A little honey lover with small wings but a big love for flowers.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/bee.png",
+          "color": {
+            "r": 243,
+            "g": 192,
+            "b": 0
+          },
+          "powers": {
+            "Honey Producer": "You can create honey with an empty bottle in hand by sneaking on a flower every minute, you also spawn with an empty bottle.",
+            "Bee Wings": "You can only sort of fly for 30 seconds by jumping to go up after using your Primary Power item, because your wings are too small to fully support you, then you have to rest for 30 seconds.",
+            "The Bee of Life": "You can jump while sneaking with a bottle of honey in your hand to get bone meal every 15 seconds.",
+            "Stinger": "You poison anything you hit with your Primary Power item.",
+            "Pollen Power": "You get certain effects by sneaking while on different flowers, usually lasting around 15 seconds, with a 30 second cooldown.",
+            "Kamikaze": "When using your Secondary Power item, you will instantly die, but the nearest entity to you within four blocks will take 6 hearts of damage, this has a one minute cooldown."
+          },
+          "neutrals": {
+            "I Bee Small": "You are half a block shorter than humans."
+          },
+          "downsides": {
+            "I Bee Wet": "You are slower and weaker in rain and water, and are unable to fly while wet.",
+            "Beez Kill": "You have 5 less hearts of health than humans.",
+            "Sugary Sweet Diet": "You can only eat honey."
+          },
+          "cosmetics": {
+            "Credit": "Phil the great#6671"
+          }
+        },
+        "starborne": {
+          "display-name": "Starborne",
+          "description": "Being born from the stars, you are a nonviolent, star-obsessed, mysterious, and potentially powerful entity that fell from the stars down to this blocky world we reside.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/starborne.png",
+          "color": {
+            "r": 121,
+            "g": 55,
+            "b": 213
+          },
+          "powers": {
+            "Speedy Star": "You can condense your star energy to make you gain mediocre velocity and make a star circle behind you to fling others too close into the air by using your Primary Power item.",
+            "Shooting Star": "You can shoot a star beam to deal 10 damage with a 6 second cooldown by using your Secondary Power item.",
+            "Born From the Stars": "During the night when you can observe the stars, the cosmos grants you a mysterious power that results in regeneration and speed with moon-like gravity unless you sneak."
+          },
+          "neutrals": {
+            "Supernova": "All the collected star energy that you have accumulated through your time in the stars needs to go somewhere, So whenever you happen to meet your demise you will explode in a great Supernova if you are not sneaking, however, you will need exposure to the stars to refill that energy."
+          },
+          "downsides": {
+            "Cold Vacuum": "You are used to the cold environment of space so fire isn't exactly something you're used to, this results in taking double damage from all fire-related sources.",
+            "Starwatcher": "You just love to watch the stars, and when not exposed to them you get a little sad and will move a bit slower.",
+            "Nonviolent": "In the great abyss of space, violence is uncommon if you even come across someone in the first place, this results in you having a small chance to be immobilized upon taking damage."
+          },
+          "cosmetics": {
+            "Credit": "slayer#5555   youtube.com/c/slayerdev"
+          }
+        },
+        "tmotd": {
+          "display-name": "TMOTD",
+          "description": "The Monster of the Depths was long forgotten, but now it rains terror in the sea.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/tmotd.png",
+          "color": {
+            "r": 150,
+            "g": 15,
+            "b": 15
+          },
+          "powers": {
+            "Tentacle": "You have a trident that can drag things closer to you.",
+            "Sea Monster": "You deal more damage while underwater.",
+            "Aqua Affinity": "You may break blocks underwater as others do on land.",
+            "Entanglement": "You can use your Primary Power item to freeze two nearby mobs in a four block radius for ten seconds every minute."
+          },
+          "neutrals": {
+            "Gills": "You can breathe underwater but drown faster on land.",
+            "Fins": "You swim faster in water, but move a bit slower on land.",
+            "Final Breath": "You drop a water breathing potion upon death, and you can't drink water breathing potions."
+          },
+          "downsides": {},
+          "cosmetics": {
+            "Credit": "Dark Abyss#7567 and Bee...#5436"
+          }
+        },
+        "witherin": {
+          "display-name": "Witherin",
+          "description": "A long dead skeleton that has mastered the usage of stone tools.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/witherin.png",
+          "color": {
+            "r": 43,
+            "g": 43,
+            "b": 43
+          },
+          "powers": {
+            "Withers Explosion": "You can cause a big explosion either by using your Primary Power item or upon death when not sneaking, withering everything nearby with a one minute cooldown.",
+            "Coal Consumption": "You can consume coal by sneaking with it in your hand, replenishing two full hunger points with a short cooldown.",
+            "The Stone Knight": "You deal more damage and mine faster with stone tools."
+          },
+          "neutrals": {
+            "Tall and Heavy": "You are half a block taller than humans and are slightly slower.",
+            "Inherited Traits": "You are uneffected by the poison and wither effects and don't take damage from fire or lava, but your size comes with more exhaustion."
+          },
+          "downsides": {
+            "Unfamiliar Tools": "You aren't used to using any other types of tools besides stone, causing you to deal less damage and mine slower with other types of tools.",
+            "Nether Inhabitant": "Your natural spawn will be in the Nether and you become weaker while in the Overworld."
+          },
+          "cosmetics": {
+            "Credit": "Phil the great#6671"
+          }
+        },
+        "wolfwalkt": {
+          "display-name": "Tame Wolfwalker",
+          "description": "Although they may look human, beware the wolf hiding in sheep's clothing.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/wolfwalkt.png",
+          "color": {
+            "r": 139,
+            "g": 139,
+            "b": 139
+          },
+          "powers": {
+            "Full Moon": "A strange magic has been put upon you, allowing you to change your form. You are able to transform into a wolf, which is toggleable by using your Primary Power item, sneak to get it back after using it. After transforming back into your human form, you turn completely invisible for three seconds. You also gain night vision while in your wolf form.",
+            "Healthy": "Due to your constant exercise, you deal more damage, giving you permanent strength one.",
+            "Bone Chilling Howl": "When you use your Secondary Power item, you let loose a bone chilling howl, making every mob and player in a 15 block radius gain weakness one and slowness one for 15 seconds with a 30 second cooldown.",
+            "Body Changes": "When you transform into your wolf form, you gain the most optimal body shape for speed and agility, giving you speed one while sprinting.",
+            "Bloodthirsty": "Because of your tame behavior, you have grown attached to passive animals. When in your wolf form and a passive animal in a 15 block radius is missing health, you gain massive strength and speed momentarily, strength two and speed two for 15 seconds, with a cooldown of 30 seconds.",
+            "Leader of the Pack": "When you're around other tame Wolfwalkers, you and the other tame Wolfwalkers gain speed four."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Photophobia": "Due to your fear of the daytime, you will gain weakness two during the day.",
+            "Smaller Body, Smaller Health": "Due to your wolf form being smaller, the amount of health you have decreases to seven full hearts while in your wolf form.",
+            "Energy Consuming": "Due to the strain on your body during the night, you become hungrier quicker at night.",
+            "Abnormal Transformation": "You are unable to wear armor during your transformation, if armor is worn, the armor will be broken, playing the armor breaking sound.",
+            "Picky Appetite": "Despite being a normal human during the day, you are only able to eat meat at night.",
+            "Silver Stings": "Due to your bizarre allergies to specific metals, you slowly take damage while holding iron tools or wearing iron armor."
+          },
+          "cosmetics": {
+            "Unusual Sound": "Once per night, when a tame Wolfwalker transforms, the chat will say \"??? - A scary, but somewhat soothing howl fills the air...\".",
+            "Tame Appearance": "While in your wolf form, your appearance is that of a calm untamed wolf.",
+            "Credit": "SpotCasper#6229"
+          }
+        },
+        "wolfwalkf": {
+          "display-name": "Feral Wolfwalker",
+          "description": "Although they may look human, beware the wolf hiding in sheep's clothing.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/wolfwalkf.png",
+          "color": {
+            "r": 204,
+            "g": 0,
+            "b": 0
+          },
+          "powers": {
+            "Full Moon": "A strange magic has been put upon you, causing you to uncontrollably transform into a wolf at night. While in your wolf form, you automatically eat raw meat you are holding without the harmful side effects it may have.",
+            "Healthy": "Due to your constant exercise, you deal more damage, giving you permanent strength two.",
+            "Bone Chilling Howl": "When you use your Primary power item, you let loose a bone chilling howl, making every mob and player in a 15 block radius gain weakness one and slowness one for 20 seconds with a 30 second cooldown.",
+            "Body Changes": "When you transform into your wolf form, you gain the most optimal body shape for speed and agility, giving you speed two while sprinting.",
+            "Bloodthirsty": "While in your wolf form, when a passive mob or a player in a 15 block radius is missing health, the scent of blood makes you very hungry, increasing your hunger, but increasing your desperation for food, giving you speed three and 2x hunger consumption for 15 seconds with a 30 second cooldown.",
+            "Leader of the Pack": "When you're near other feral Wolfwalkers, you and the other feral Wolfwalkers gain strength three."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Photophobia": "Due to your fear of the daytime, you will gain weakness two during the day.",
+            "Smaller Body, Smaller Health": "Due to your wolf form being smaller, the amount of health you have decreases to seven full hearts while in your wolf form.",
+            "Energy Consuming": "Due to the strain on your body during the night, you become hungrier quicker at night.",
+            "Abnormal Transformation": "You are unable to wear armor during your transformation, if armor is worn, the armor will be broken, playing the armor breaking sound.",
+            "Picky Appetite": "Despite being a normal human during the day, you are only able to eat meat at night.",
+            "Silver Stings": "Due to your bizarre allergies to specific metals, you slowly take damage while holding iron tools or wearing iron armor."
+          },
+          "cosmetics": {
+            "Unusual Sound": "Once per night, when a feral Wolfwalker transforms, the chat will say \"??? - A bone chilling howl fills the air...\".",
+            "Feral Appearance": "While in your wolf form, your appearance is that of an angry untamed wolf.",
+            "Pure Rage": "While in your wolf form, your vision is tinted red.",
+            "Credit": "SpotCasper#6229"
+          }
+        }
+      }
+    },
+    "weppl": {
+      "order": [
+        "llama",
+        "duck",
+        "the cute one",
+        "troll"
+      ],
+      "description": "The Weird People origins pack.",
+      "placement notes": "Must be applied below the Main origins pack.",
+      "order placement": 1,
+      "origins": {
+        "llama": {
+          "display-name": "Llama",
+          "description": "A llama that can spit long range and be ridden places.",
+          "impact": "low",
+          "icon_path": "./data/core/origin_icons/llama.png",
+          "color": {
+            "r": 234,
+            "g": 194,
+            "b": 125
+          },
+          "powers": {
+            "Llama Spit": "You can spit by using your Primary Power item.",
+            "Rideable": "You can be ridden by other people, and jump while sneaking to kick the rider off.",
+            "Llama Chest": "You have access to an additional 5 slots of inventory, which keep the items on death. This inventory can be accessed by looking straight down and interacting with the ground right below you, as if you were opening a chest minecart, while sneaking. This inventory can only be accessed in the overworld do to issues occurring when opening in other dimensions.",
+            "Quick": "You are slightly quicker on foot than humans while sprinting."
+          },
+          "neutrals": {},
+          "downsides": {
+            "Vegetarian": "You can't digest any meat."
+          },
+          "cosmetics": {}
+        },
+        "duck": {
+          "display-name": "Duck",
+          "description": "Peace was never an option.",
+          "impact": "medium",
+          "icon_path": "./data/core/origin_icons/duck.png",
+          "color": {
+            "r": 218,
+            "g": 218,
+            "b": 218
+          },
+          "powers": {
+            "Shiv": "You have a permanent iron sword, sneak to get it back if you lose it.",
+            "Boom Poo": "You can lay an ignited TNT every 30 seconds by using your Primary Power item. This will also launch you up some blocks and give you slow falling for a short time.",
+            "Webbed Feet": "Your webbed feet allow you to swim faster."
+          },
+          "neutrals": {
+            "Duck Sized": "You are a block shorter than humans."
+          },
+          "downsides": {
+            "Speculums": "Your speculums provide no way of holding a shield.",
+            "Fragile": "You have 3 less hearts of health than humans.",
+            "Terrorist": "You are well known for your acts of terrorism, villagers are afraid of you and iron golems attack you on sight."
+          },
+          "cosmetics": {}
+        },
+        "the cute one": {
+          "display-name": "The Cute One",
+          "description": "The cutest of them all.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/the_cute_one.png",
+          "color": {
+            "r": 218,
+            "g": 36,
+            "b": 15
+          },
+          "powers": {
+            "Cuteness": "Due to you being really cute, everything nearby lowers their guard and takes more damage from your attacks.",
+            "Regenerative Hugs": "By sneaking for 4 seconds, the closest thing within a short radius of you will regenerate some health.",
+            "Climbing Prowess": "You are able to climb up any kind of wall, not just ladders, by jumping continuously on touch screen, or holding jump otherwise to ascend, touching a wall to descend, and sneaking to cling to the wall. This is toggleable by jumping while sneaking.",
+            "Nimble": "You are slightly quicker on foot than humans."
+          },
+          "neutrals": {
+            "Stunted Growth": "You are half a block shorter than humans."
+          },
+          "downsides": {
+            "Sleepy Head": "You are still sleepy in the morning, so you sleep in 30 seconds longer than humans.",
+            "Fragile": "You have 3 less hearts of health than humans.",
+            "Meat Diet": "Your diet is restricted to meat, you can't eat vegetables."
+          },
+          "cosmetics": {}
+        },
+        "troll": {
+          "display-name": "Troll",
+          "description": "A griefer, thief, and master escapist.",
+          "impact": "high",
+          "icon_path": "./data/core/origin_icons/troll.png",
+          "color": {
+            "r": 85,
+            "g": 85,
+            "b": 85
+          },
+          "powers": {
+            "Arson Tendencies": "You always have a flint and steel on you, sneak to get it back if you lose it.",
+            "Troll Protection": "You are immune to on fire damage and take less damage from lava, explosives, and falling.",
+            "Explosive Pockets": "You can pull a block of TNT out of your back pocket every 30 seconds by sneaking.",
+            "Impulsiveness": "You randomly gain a speed and strength boost every 3 to 5 minutes.",
+            "Rage": "Using your Primary Power item will deal 2 hearts of damage to everything within 3 blocks of you. This has a 30 second cooldown."
+          },
+          "neutrals": {
+            "Escapist": "You are half a block shorter than humans."
+          },
+          "downsides": {
+            "Large Appetite": "You exhaust much quicker than others, thus requiring you to eat more.",
+            "Terrorist": "You are well known for your acts of terrorism, villagers are afraid of you and iron golems attack you on sight."
+          },
+          "cosmetics": {}
+        }
+      }
+    },
+    "techn": {
+      "order": [
+        "technoblade"
+      ],
+      "description": "The origin pack that was a made as a tribute to Technoblade.",
+      "placement notes": "Must be applied below the Main origins pack.",
+      "order placement": 1,
+      "origins": {
+        "technoblade": {
+          "display-name": "Technoblade",
+          "description": "A legend with hot elbows that is no longer with us that will be forever missed, and never forgotten. A tribute to Technoblade, **** cancer.",
+          "impact": "major",
+          "icon_path": "./data/core/origin_icons/technoblade.png",
+          "color": {
+            "r": 200,
+            "g": 0,
+            "b": 0
+          },
+          "powers": {
+            "Techno's Crown": "You can wear a crown that can't be given away and is kept on death, that provides the same protection as a diamond helmet, that can be enchanted like a normal helmet, and provides permanent resistance 1 when worn. Sneak to get it back if you lose it.",
+            "\"Blood for the Blood God!\"": "Killing mobs or players will give you a 15 second strength effect, and killing more mobs or players while you still have the strength effect will cause it to reset the duration back to 15 seconds and stack up to a max level of 5. Once you've reached a strength effect of level 5, the effects duration will only reset back to 5 seconds when killing, and you'll have to continue to kill mobs or players within 5 seconds of your last kill to keep the effect.",
+            "\"Technoblade Never Dies!\"": "Before you meet your demise, your health will be restored, all effects will be cleared, and you'll be given resistance 2 for 20 seconds. \"Not even close.\" This has a cooldown of 5 minutes, but you can speed it up by 15 seconds every time you kill a mob or player. You'll know when the cooldown has ended when the chat says \"Technoblade never dies.\" in light green.",
+            "Rocket Launcher": "Using your Primary Power item, you can fire 3 firework rockets that each deal a max of 5 hearts of damage to nearby entities upon contact with an entity or block, and each firework rocket travels 64 blocks in 2 seconds. \"Kill everybody!\" This power has a 2 second cooldown and requires a firework rocket to be in your inventory in order to fire a firework rocket. \"Oh no, ohh I'm in a high stress situation, I deal with these poorly.\"",
+            "\"TechnoPLANE!\"": "While wearing an elytra, another player is able to ride on your back.",
+            "Potato King": "You automatically replant fully grown potato crops when harvesting them. \"WE WIN THESE!\"",
+            "Sellout Timer": "Every 30 minutes, you'll hear a timer go off and you'll be given a bell if you don't have one in your inventory. You'll then have 15 seconds to place the bell, otherwise the 30 minute timer will start again. If you place it, you'll have 1 minute to ring the bell as much as you can, and every 100 rings will give you 1 diamond. If the bell is destroyed during this time, the 30 minute timer will start again and you won't receive any diamonds. At the end of the minute, you'll receive your diamonds and the bell will be deleted. \"YOOOO BECOME A CHANNEL MEMBER, ONE OF US! ONE OF US!\"",
+            "\"You Want to be a Hero?\"": "Wither skeletons have a second chance with a 25 percent chance to drop a wither skull when killed by you, and withers are mostly neutral towards you and won't directly target and follow you unless provoked, though they will still shoot some wither skulls in your direction. \"THEN DIE LIKE ONE!\"",
+            "Orphan Obliterator": "Hitting the baby version of any mob will instantly kill that mob. \"Dude, these orphans are getting destroyed.\" \"Officer, I dropkicked that child in self defense!\"",
+            "AntarcticEmpire": "You are more used to cold climates, giving you speed 2 while sprinting in cold biomes. You can also claim chunks of land by interacting with a snow block in a chunk with an empty hand. This claim does nothing besides notify players of it being owned by the AntarcticEmpire when entering the area. \"Hippity hoppity get off my property.\" Interacting with a snow block in the same chunk will unclaim the chunk. The amount of land you can claim is based on your winstreak up to a maximum of 64 chunks, and dying will unclaim everything you have claimed.",
+            "Respected": "Piglins, piglin brutes, and hoglins won't attack you unless provoked."
+          },
+          "neutrals": {
+            "Anarchist": "Governments know you well for your acts of anarchism, iron golems will attack you on sight, but pillager mobs won't unless provoked. \"Uhh, I just want to abolish the government. I want to leave a smoking crater from which not only will manburg never recover, but from which no new country can rise in its place.\"",
+            "Pig Ancestry": "Being around your ancestors gives you regeneration 1, but hurting them hurts you by double the amount and attempting to eat pork sickens you."
+          },
+          "downsides": {
+            "The Voices": "You have a resource bar that slowly fills over time, taking 20 minutes to become full. At halfway you get slowness 1, at 3 quarters you get slowness 2, at 7 eights you get slowness 3, and at full you get slowness 5 and blindness. The only way to keep the bar from filling is by killing mobs or players, which empties the bar by an eighth every kill. \"The voices demand blood, Phil.\"",
+            "Arch Nemesis": "Nearby squids will attempt to attack you on sight. \"WATCH ME DANCE SQUID KID, YOU LOSE! YOU LOSE THE WAR!\""
+          },
+          "cosmetics": {
+            "\"+25 Karma!\"": "Every time you kill a player, you'll automatically say \"gg\" in chat and gain 25 karma.",
+            "Winstreak": "A number of the amount players you've killed since the last time you died is displayed on the end of your name. [Highest Winstreak: 1818]"
+          }
+        }
+      }
+    }
+  }
+}
