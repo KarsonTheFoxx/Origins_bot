@@ -14,7 +14,7 @@ for file in listdir("./cogs/"):
     if file.endswith(".py"):
         bot.load_extension(f"cogs.{file[:-3]}")
 
-TOKEN = "MTAxNTcyNjc5NTE1ODQ2MjYwNA.GhlvVX.g2MvPvMF1jq-rKRgctz05sF_gtE8eOuDaS4NoQ"
+TOKEN = "TOKEN"
 
 
 # On ready functions
