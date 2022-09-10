@@ -13,7 +13,7 @@ class info_cog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
-    @commands.slash_command(name="info_beta", description="Info about the bot")
+    @commands.slash_command(name="info", description="Info about the bot")
     async def info(self, inter):
         await inter.response.defer()
         r = randint(0, 255)
