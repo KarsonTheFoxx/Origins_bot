@@ -1,3 +1,4 @@
+# Note: this code is old and no longer upkept
 from disnake.ext import commands
 from disnake import Status, Activity, ActivityType, Intents, Embed, Color, Guild, CommandInteraction
 from random import randint
